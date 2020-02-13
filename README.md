@@ -55,7 +55,8 @@ Navigate the raw data and cleansing
 
 ### FeatureEng_soul.ipynb
 #### feature names 
-prd_cnt : the number of each items that has been ordered so far 
+prd_cnt : the number of each items that has been ordered so far
+
 us_prd_cnt : the number of items has the user ordered so far
 us_prd_rate : the percentage of each item accounting for over the total order 
 us_prd_longago : how many orders have been passed from the last order of each item, for each users. The longer she hasn't bought the same item while placing other orders, the bigger the value is
