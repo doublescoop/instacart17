@@ -58,16 +58,24 @@ Navigate the raw data and cleansing
 prd_cnt : the number of each items that has been ordered so far
 
 us_prd_cnt : the number of items has the user ordered so far
+
 us_prd_rate : the percentage of each item accounting for over the total order 
+
 us_prd_longago : how many orders have been passed from the last order of each item, for each users. The longer she hasn't bought the same item while placing other orders, the bigger the value is
+
 us_prd_constancy : constancy of a users order to a certain product after the first purchase. The more frequent the order, the higher the value is
   *if a user bought a banana for the first time in her second order, and bought banana for three times in total among her first ten orders, the constancy rate would be: 3/10-2+1 = 1/3)
+
 order_number : check the correlation between the order of each order and re-order rate 
+
 total_distinct_items : number of distinct items each user has ordered in total
+
 order_hour_of_day : the time of the day when the order was placed, grouped into three 
   *assumption: items ordered in certain time of the day(e.g. after work, during lunch time) will have a higher re-order rate
   *processed via R statistics package and later merged into .py 
+
 royalUsers : check the correlation between the time of join and re-order rate
+
 top_prd : Top 10 products with high re-order rates 
 
 ### soul0914.ipynb 
