@@ -69,5 +69,14 @@ order_hour_of_day : the time of the day when the order was placed, grouped into 
 royalUsers : check the correlation between the time of join and re-order rate
 top_prd : Top 10 products with high re-order rates 
 
+### soul0914.ipynb 
+This was a team project of four and this file contains my contributions, including trials and errors
 
-I used a sklearn.svm for the regression. Optimized F-1. 
+### royalusers.ipynb
+Merging royal users and checking the correlation between royal users and re-order rate.
+
+### instamodel.ipynb
+
+I used SCV in sklearn.svm for the regression. and tried tree classification (source:https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)  Optimized F-1. 
+
+
